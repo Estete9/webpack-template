@@ -4,9 +4,9 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
-    "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",

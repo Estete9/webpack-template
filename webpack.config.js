@@ -7,6 +7,10 @@ module.exports = {
   },
   devServer: {
     static: './dist',
+    port: '9000',
+    hot: true,
+    watchFiles: ['src/*.html'],
+    liveReload: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,9 +21,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-  },
-  optimization: {
-    runtimeChunk: 'single',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -29,4 +31,5 @@ module.exports = {
       },
     ],
   },
+  mode: 'development',
 };
