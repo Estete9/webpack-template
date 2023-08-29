@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 YOUR-PROJECT-NAME-HERE <a name="about-project"></a>
+# 📖 WEBPACK TEMPLATE <a name="about-project"></a>
 
-**YOUR-PROJECT-NAME-HERE** This is a capstone project that required me to distribute the layout with HTML, style it, and make it responsive for mobile and desktop with CSS. I also added menu functionality with JavaScript.
+**WEBPACK TEMPLATE** This template is focused on being a base project using Webpack and all the core libraries needed.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,11 +90,12 @@ To run this project you need:
 Acquire a Web browser
 
 ### Install
-
-No install needed.
+No installation is needed.
 ### Usage
 
-In a browser visit [YOUR-PROJECT-NAME-HERE UPDATE URL TOO](https://iliartes.netlify.app)
+To start the page run your command line:
+- `npm install`
+- `npm run start` 
 
 ### Run tests
 
