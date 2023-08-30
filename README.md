@@ -85,20 +85,29 @@ To get a local copy up and running, follow these steps.
 
 To run this project you need:
 
+- VSCode
+- npm
+- Node
+
 ### Setup
 
-Acquire a Web browser
+Make sure you have VSCode, npm, and Node installed
 
 ### Install
+In the root folder, run the script `npm install` to install all the libraries necessary.
 
-No install needed.
 ### Usage
-
-In a browser visit [YOUR-PROJECT-NAME-HERE UPDATE URL TOO](https://iliartes.netlify.app)
+#### Webpack
+- Run the scripts: `npm run watch-webpack` to only have Webpack watch your files or
+- `npm run watch` to watch the tests and Webpack changes
+#### Live Demo
+- Run the script `npm run start` to see a live version of the project
 
 ### Run tests
 
-Use your browser's developer tools
+Use the scripts: 
+- `npm run watch-jest` to only watch your tests with Jest or 
+- `npm run watch` to watch the tests and Webpack changes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +137,7 @@ Use your browser's developer tools
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page UPDATE URL HERE](https://github.com/Estete9/YOUR-REPO-NAME-HERE/issues).
+Feel free to check the [issues page UPDATE URL HERE](https://github.com/Estete9/webpack-template/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,6 +161,6 @@ If you like this project remember to star and share it 🥳️
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md)-licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
