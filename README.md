@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 YOUR-PROJECT-NAME-HERE <a name="about-project"></a>
+# 📖 WEBPACK TEMPLATE <a name="about-project"></a>
 
-**YOUR-PROJECT-NAME-HERE** This is a capstone project that required me to distribute the layout with HTML, style it, and make it responsive for mobile and desktop with CSS. I also added menu functionality with JavaScript.
+**WEBPACK TEMPLATE** This template is focused on being a base project using Webpack and all the core libraries needed.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,6 +102,7 @@ In the root folder, run the script `npm install` to install all the libraries ne
 - `npm run watch` to watch the tests and Webpack changes
 #### Live Demo
 - Run the script `npm run start` to see a live version of the project
+
 
 ### Run tests
 
