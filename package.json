@@ -7,7 +7,7 @@
     "watch-jest": "jest --watch",
     "watch-webpack": "webpack --watch",
     "watch": "npm run watch-jest & npm run watch-webpack",
-    "start": "webpack serve --open",
+    "start": "npm run build && webpack serve --open",
     "build": "webpack",
     "deploy": "gh-pages -d dist"
   },
