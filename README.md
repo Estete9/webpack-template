@@ -89,7 +89,9 @@ In the root folder, run the script `npm install` to install all the libraries ne
 
 ### Usage
 #### Webpack
-- Run the scripts: `npm run watch-webpack` to only have Webpack watch your files or
+Run the scripts:
+- Each time before running your page use `npm run build` so webpack creates the necessary files in the dist folder
+- `npm run watch-webpack` to only have Webpack watch your files or
 - `npm run watch` to watch the tests and Webpack changes
 #### Live Demo
 - Run the script `npm run start` to see a live version of the project
@@ -119,7 +121,7 @@ Use the scripts:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Gallery popup**
+- **Run `npm run build` at the same time the `npm run start` so Webpack automatically creates the necessary folders before starting the page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
